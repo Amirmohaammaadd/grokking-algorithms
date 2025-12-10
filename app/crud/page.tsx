@@ -12,6 +12,7 @@ const MyFormItem = Form.Item<CustomFormData>
 const Page = () => {
     const [form] = Form.useForm()
 
+    
     const onSubmit = (values: CustomFormData) => {
         const { email, username } = values
         console.log({ email, username });
